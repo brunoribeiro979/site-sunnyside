@@ -145,6 +145,19 @@ span {
   cursor: pointer;
 }
 
+.content button::after {
+  display: block;
+  content: '';
+  height: 8px;
+  width: 126px;
+  background: yellow;
+  border-radius: 4px;
+  opacity: 70%;
+  position: relative;
+  top: -7px;
+  z-index: -1;
+}
+
 .services-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
