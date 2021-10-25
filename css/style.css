@@ -131,7 +131,7 @@ span {
 .content p {
   color: hsl(232, 10%, 55%);
   margin-bottom: 30px;
-  line-height: 1.5rem;
+  line-height: 1.7rem;
 }
 
 .content button {
@@ -265,7 +265,7 @@ span {
 
 .nav-footer a {
   font-size: 1.2rem;
-  margin: 0 40px;
+  margin: 0 15px;
   color: hsl(168, 34%, 41%);
 }
 
