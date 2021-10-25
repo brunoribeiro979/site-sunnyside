@@ -24,6 +24,7 @@ body {
 img {
   display: block;
   max-width: 100%;
+  max-height: 100%;
 }
 
 h1,
@@ -54,7 +55,7 @@ span {
   align-items: center;
   max-width: 1250px;
   margin: 0 auto;
-  padding: 40px 0;
+  padding: 40px 20px;
 }
 
 .menu-container img {
@@ -67,10 +68,12 @@ span {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  gap: 1.5rem;
 }
 
 .menu-container li a {
-  margin: 0 30px;
+  display: block;
+  padding: 0.5rem;
   color: white;
   font-size: 1.2rem;
 }
@@ -79,7 +82,7 @@ span {
   color: hsl(212, 27%, 19%);
 }
 
-.menu-container button {
+.btn-menu {
   background: white;
   border: none;
   padding: 20px 30px;
@@ -91,7 +94,7 @@ span {
   cursor: pointer;
 }
 
-.menu-container button:hover {
+.btn-menu:hover {
   background: #71d8ec;
   color: white;
 }
@@ -100,12 +103,12 @@ span {
   color: white;
   text-align: center;
   font-size: 4rem;
-  margin-top: 20px;
+  margin-top: 50px;
   letter-spacing: 0.25rem;
 }
 
 .header img {
-  margin: 40px auto 0 auto;
+  margin: 30px auto 0 auto;
 }
 
 /*  MAIN  */
