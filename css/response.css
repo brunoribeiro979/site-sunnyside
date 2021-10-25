@@ -30,6 +30,7 @@
   }
   .content {
     margin: 40px 0;
+    padding: 0 20px;
     text-align: center;
   }
   .services-container {
@@ -37,6 +38,9 @@
   }
   .testimonials-container {
     margin-bottom: 0px;
+  }
+  .testimonials-container p {
+    width: 100%;
   }
   .testimonials-container span {
     display: block;
